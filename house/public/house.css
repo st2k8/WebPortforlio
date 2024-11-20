@@ -1,0 +1,191 @@
+body,html{
+  height: 100vh;
+  width:100vw;
+  padding: 0;
+  margin: 0;
+  overflow:hidden;
+}
+div img{
+  width:100%;
+  height:auto;
+}
+body{
+  background-color:#80B2D8;
+}
+.house{
+  position:absolute;
+  bottom:0%;
+  left:0%;
+}
+.banner{
+  position:absolute;
+  top:20%;
+  left:22%;
+}
+.small_person{
+  position:absolute;
+  bottom:2%;
+  left:15%
+}
+.small_Taiwan{
+  position:absolute;
+  bottom:2%;
+  left:45%;
+}
+.small_map{
+  position:absolute;
+  bottom:2%;
+  left:70%;
+}
+.your_head{
+  position:absolute;
+  top:3%;
+  left:3%;
+}
+.beside_head{
+  position:absolute;
+  top:5.5%;
+  left:7%;
+}
+.level_line{
+  position:absolute;
+  top:10%;
+  left:17%;
+}
+.box{
+  position:absolute;
+  top:5%;
+  right:10%;
+}
+.cloud{
+  position:absolute;
+  top:15%;
+  right:0%;
+}
+.cloud2{
+  position:absolute;
+  top:20%;
+  left:0%;
+}
+.entrance{       
+  position:absolute;
+  top:67.5%;
+  left:46.5%;
+  width:7.5%;
+  height:7.5%;
+} 
+.switchscreen{
+  position:absolute;
+   top:67.5%;
+  left:46.5%;
+  width:0%;
+  height:0%;
+}
+.change_to_profile{
+  position:absolute;
+  bottom:2%;
+  left:15%;
+  width:0%;
+  height:0%;
+}
+.profile_circle{
+  position:absolute;
+  top:17%;
+  left:11%;
+  display:inline-block;
+  -webkit-animation:loading ls infinite linear;
+  -moz-animation:loading ls infinite linear;
+  -o-animation:loading ls infinite linear;
+  animation:loading ls infinite linear;
+  animation-name:profile_circle;
+  animation-duration:3s;
+  animation-iteration-count:infinite;
+}
+@-webkit-keyframes profile_circle{
+  from{
+    -webkit-transform:rotate(0deg);
+  }
+  to{
+    -webkit-transform:rotate(360deg);
+  }
+}
+@-moz-keyframes profile_circle{
+  from{
+    -moz-transform:rotate(0deg);
+  }
+  to{
+    -moz-transform:rotate(360deg);
+  }
+}
+@-o-keyframes profile_circle{
+  from{
+    -o-transform:rotate(0deg);
+  }
+  to{
+    -o-transform:rotate(360deg);
+  }
+}
+@keyframes profile_circle{
+  from{
+    transform:rotate(0deg);
+  }
+  to{
+    transform:rotate(360deg);
+  }
+}
+.profile_top{
+  position:absolute;
+  top:2%;
+  left:0%;
+}
+.profile_arrow{
+  position:absolute;
+  top:4%;
+  left:8%;
+}
+.profile_bottom{
+  position:absolute;
+  bottom:0%;
+  left:0%;
+}
+.bike{
+  position:absolute;
+  bottom:8.5%;
+  left:0%;
+}
+.monster{
+  position:absolute;
+  bottom:9%;
+  left:76%;
+}
+@media only screen and (min-height:1800px){
+  .level_line{
+    top:9.5%;
+  }
+  .entrance{
+    top:71%;
+  }
+  .bike{
+    bottom:7.5%;
+  }
+  .monster{
+    bottom:8%;
+  }
+}
+@media only screen and (min-height:2000px){
+  .level_line{
+    top:9.2%;
+  }
+  .entrance{
+    top:73%;
+  }
+  .bike{
+    bottom:7%;
+  }
+  .monster{
+    bottom:7%;
+  }
+  .profile_circle{
+    top:14%;
+  }
+}
